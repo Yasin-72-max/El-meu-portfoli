@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Estructura Bàsica amb etiquetes semàntiques</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <title>Contacta amb mi</title>
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body>
@@ -13,25 +13,46 @@
         <nav>
             <ul>
                 <li><a href="./index.html">Inici</a></li>
-                <li><a href="./pages/sobre_mi.html">Sobre mi</a></li>
-                <li><a href="./pages/estudis.html">Estudis</a></li>
-                <li><a classs="active" href="./pages/contacta.html"></li>
+                <li><a href="./sobre_mi.html">Sobre mi</a></li>
+                <li><a href="./estudis.html">Estudis</a></li>
+                <li><a classs="active" href="./contacta.html">Contacta</a></li>
             </ul>
         </nav>
     </header>
+</body>
+
+<form action="#" method="post">
     <h1>Contacta amb mi</h1>
-    <form action="#" method="post">
+
+    <div>
         <label for="nom">Nom complet</label>
         <input type="text" id="nom" name="nom" placeholder="Escriu el teu nom..."></input>
+    </div>
 
+    <div>
         <label for="email">Correu electrònic</label>
         <input type="email" id="email" name="email" placeholder="nom@exemple.com..."></input>
+    </div>
 
+    <div>
+        <label for="missatge">Asumpte</label>
+        <textarea id="Asumpte" name="email" placeholder="Motiu del missatge"></textarea>
+    </div>
+
+    <div>
         <label for="missatge">Missatge</label>
-        <textarea id="missatge" name="email" placeholder="Escriu el teu missatge"></textarea>
+        <textarea id="missatge" name="email" placeholder="Escriu el teu missatge aqui"></textarea>
+    </div>
 
+    <div>
         <button type="submit">Enviar missatge</button>
-    </form>
+    </div>
+
+</form>
+
+<footer>
+    <p>&copy; 2026 Yasin Roukdi - Copyright</p>
+</footer>
 
 
 </body>
